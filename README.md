@@ -3,9 +3,10 @@
 Download Libraries+ to learn more about your favorite Cornell Libraries! Use it to find the library's location, rent a study room, find its hours, and more.
 Link to the iOS github: https://github.com/gabegod14/culibraries-
 
-![ratingStar](https://user-images.githubusercontent.com/97565265/205421335-ff036602-a3ff-4511-bcb1-9be76de28cd6.jpeg)
+<img width="200" alt="Screen Shot 2022-12-02 at 10 57 14 PM" src="https://user-images.githubusercontent.com/97565265/205421702-f250bc98-fa6d-47c2-8e1c-59b2a5ceb4f0.png">
 
-![presentViewController](https://user-images.githubusercontent.com/97565265/205421333-d40a4d26-5856-4947-8471-bf9beb8242e6.jpeg)
+<img width="200" alt="Screen Shot 2022-12-02 at 10 57 02 PM" src="https://user-images.githubusercontent.com/97565265/205421706-8e12777f-a066-4034-88b6-9e45c9f999c6.png">
+
 
 Libraries+ consists of a login screen, a library selection screen, and a library information screen. The app is centered around
 learning more about select libraries that Cornell University offers. Some of its features include providing library information, 
