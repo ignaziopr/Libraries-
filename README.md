@@ -20,9 +20,9 @@ and longitude, which is later passed into a string that represents the google ma
 JSON containing the rest of the parameters of the Library table, and through endpoints this JSON is used to populate the Library table.
 
 Some of the endpoints included are:
-/api/library/: Endpoint for getting all libraries.
-/api/library/ [POST]: Endpoint for creating a Library.
-/api/library/populate/: Endpoint for populating the Libraries table with the libraries included in the JSON above called [all_libraries].
+- /api/library/: Endpoint for getting all libraries.
+- /api/library/ [POST]: Endpoint for creating a Library.
+- /api/library/populate/: Endpoint for populating the Libraries table with the libraries included in the JSON above called [all_libraries].
 /api/library/<int:library_id>/: Endpoint for getting a specific library by its id.
 /api/library/<int:library_id>/maps/: Endpoint for getting a google static map corresponding to a library by the library's id.
 /api/library/<int:library_id>/hours/: Endpoint for getting a library's hours by the library's id.
