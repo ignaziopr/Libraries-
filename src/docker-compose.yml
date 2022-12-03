@@ -1,0 +1,7 @@
+version: "3"
+services:
+  demo:
+    image: ignaziopr/libraries:v11
+    ports:
+      - 8000:8000
+    
