@@ -202,13 +202,6 @@ def is_open(library_id):
     return False
 
 
-"""
-@app.route("/api/library/<int:library_id>/distance/")
-def distance(library_id):
-    pass
-"""
-
-
 @app.route("/api/library/favorites/")
 def get_favorites():
     """
