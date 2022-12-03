@@ -19,17 +19,17 @@ The app.py file relies on the Google Maps Static API. Calling the geocode functi
 and longitude, which is later passed into a string that represents the google maps image pertaining to that address. This string is later added to a
 JSON containing the rest of the parameters of the Library table, and through endpoints this JSON is used to populate the Library table.
 
-Some of the endpoints included are:
+The endpoints included are:
 - /api/library/: Endpoint for getting all libraries.
 - /api/library/ [POST]: Endpoint for creating a Library.
 - /api/library/populate/: Endpoint for populating the Libraries table with the libraries included in the JSON above called [all_libraries].
-/api/library/<int:library_id>/: Endpoint for getting a specific library by its id.
-/api/library/<int:library_id>/maps/: Endpoint for getting a google static map corresponding to a library by the library's id.
-/api/library/<int:library_id>/hours/: Endpoint for getting a library's hours by the library's id.
-/api/library/<int:library_id>/time/: Endpoint that checks if a given library (selected by its library id) is open or closed at the current hour of checking.
-/api/library/favorites/: Endpoint that returns all the libraries that were selected as favorites by the user.
-/api/library/favorites/ [POST]: Endpoint that adds a library to the Favorite table.
-/api/library/favorites/ [DELETE]: Endpoint that deletes a library from the Favorite table.
+-/api/library/<int:library_id>/: Endpoint for getting a specific library by its id.
+-/api/library/<int:library_id>/maps/: Endpoint for getting a google static map corresponding to a library by the library's id.
+-/api/library/<int:library_id>/hours/: Endpoint for getting a library's hours by the library's id.
+-/api/library/<int:library_id>/time/: Endpoint that checks if a given library (selected by its library id) is open or closed at the current hour of checking.
+-/api/library/favorites/: Endpoint that returns all the libraries that were selected as favorites by the user.
+-/api/library/favorites/ [POST]: Endpoint that adds a library to the Favorite table.
+-/api/library/favorites/ [DELETE]: Endpoint that deletes a library from the Favorite table.
 
 -----------------------------------
 Libraries+ addressess each of the Backend requirements by:
